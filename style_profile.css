@@ -1,0 +1,41 @@
+body {
+  background-image: url('floral_background.png'); /* Floral background */
+  background-size: cover; /* Ensure the background covers the entire page */
+  font-family: 'Georgia', serif; /* Elegant, readable font */
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white for readability */
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #f48fb1; /* Soft pink border */
+  width: 50%;
+  margin: 20px auto;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  border-radius: 15px; /* Rounded corners for a soft look */
+}
+
+.card a img {
+  width: 30px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.card h2 {
+  color: #d81b60; /* Vibrant pink for headings for a pop of color */
+}
+
+.half-width {
+  width: 50%;
+}
+
+.circle-image {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  display: block;
+  margin: 20px auto;
+  border: 4px solid #f48fb1; /* Pink border around the profile image */
+}
